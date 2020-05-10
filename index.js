@@ -56,7 +56,11 @@ function johnLennonFacts(constfacts) {
   var i = 0
   while (i < constfacts.length) {
     var ele = constfacts[i];
+<<<<<<< HEAD
     newArr.push(ele + "!!!")
+=======
+    var newArr.push(ele + "!!!")
+>>>>>>> 7b787f54c07a6e20f6b081d0cf4b25167d4369b2
     i++
   }
   return newArr;
@@ -75,6 +79,7 @@ function johnLennonFacts(constfacts) {
 //       condition of the loop should check to see that the parameter number is
 //       less than `15`. It should contain a number of strings that represents the
 //       difference between the input number and `15`.
+<<<<<<< HEAD
 //     * Return the array with the strings `"I love the Beatles!"`.
 
 function iLoveTheBeatles(n) {
@@ -87,3 +92,6 @@ function iLoveTheBeatles(n) {
   while (i < (15 - n));
   return text;
 }
+=======
+//     * Return the array with the strings `"I love the Beatles!"`.
+>>>>>>> 7b787f54c07a6e20f6b081d0cf4b25167d4369b2
